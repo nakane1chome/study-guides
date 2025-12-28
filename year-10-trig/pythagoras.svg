@@ -1,0 +1,28 @@
+<svg width="350" height="300" xmlns="http://www.w3.org/2000/svg">
+  <text x="100" y="20" font-family="Arial" font-size="14" font-weight="bold">Pythagoras Theorem</text>
+  
+  <!-- Triangle -->
+  <line x1="50" y1="250" x2="250" y2="250" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="250" x2="50" y2="100" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="100" x2="250" y2="250" stroke="black" stroke-width="2"/>
+  
+  <!-- Right angle marker -->
+  <rect x="50" y="230" width="20" height="20" fill="none" stroke="black" stroke-width="1"/>
+  
+  <!-- Side labels -->
+  <text x="15" y="180" font-family="Arial" font-size="18" fill="blue">a</text>
+  <text x="140" y="270" font-family="Arial" font-size="18" fill="blue">b</text>
+  <text x="155" y="170" font-family="Arial" font-size="18" fill="red">c</text>
+  
+  <!-- Formula -->
+  <text x="90" y="60" font-family="Arial" font-size="20" fill="black" font-weight="bold">c² = a² + b²</text>
+  
+  <!-- Squares on sides (outlined) -->
+  <!-- Square on side a -->
+  <rect x="10" y="100" width="40" height="150" fill="lightblue" fill-opacity="0.3" stroke="blue" stroke-width="1"/>
+  <text x="20" y="180" font-family="Arial" font-size="14" fill="blue">a²</text>
+  
+  <!-- Square on side b -->
+  <rect x="50" y="250" width="200" height="40" fill="lightblue" fill-opacity="0.3" stroke="blue" stroke-width="1"/>
+  <text x="140" y="275" font-family="Arial" font-size="14" fill="blue">b²</text>
+</svg>

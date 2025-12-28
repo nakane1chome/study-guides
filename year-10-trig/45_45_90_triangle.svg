@@ -1,0 +1,27 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <text x="60" y="20" font-family="Arial" font-size="14" font-weight="bold">45-45-90 Triangle:</text>
+  
+  <!-- Triangle -->
+  <line x1="50" y1="250" x2="200" y2="250" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="250" x2="50" y2="100" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="100" x2="200" y2="250" stroke="black" stroke-width="2"/>
+  
+  <!-- Right angle marker -->
+  <rect x="50" y="230" width="20" height="20" fill="none" stroke="black" stroke-width="1"/>
+  
+  <!-- 45° angle arc (bottom right) -->
+  <path d="M 180 250 Q 170 243 163 235" fill="none" stroke="blue" stroke-width="1.5"/>
+  <text x="155" y="245" font-family="Arial" font-size="14" fill="blue">45°</text>
+  
+  <!-- 45° angle arc (top left) -->
+  <path d="M 50 120 Q 60 115 68 108" fill="none" stroke="blue" stroke-width="1.5"/>
+  <text x="65" y="115" font-family="Arial" font-size="14" fill="blue">45°</text>
+  
+  <!-- Side labels -->
+  <text x="15" y="180" font-family="Arial" font-size="16" fill="red">1</text>
+  <text x="115" y="270" font-family="Arial" font-size="16" fill="red">1</text>
+  <text x="130" y="170" font-family="Arial" font-size="16" fill="red">√2</text>
+  
+  <!-- Note -->
+  <text x="40" y="290" font-family="Arial" font-size="12" fill="green" font-style="italic">Both legs equal!</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg width="700" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Before (left side) -->
+  <text x="80" y="20" font-family="Arial" font-size="16" font-weight="bold">Before:</text>
+  
+  <!-- Vertical tree -->
+  <line x1="100" y1="300" x2="100" y2="80" stroke="brown" stroke-width="4"/>
+  <text x="80" y="70" font-family="Arial" font-size="14">P (tree)</text>
+  
+  <!-- Ground -->
+  <line x1="50" y1="300" x2="200" y2="300" stroke="black" stroke-width="2"/>
+  
+  <!-- Stone -->
+  <circle cx="180" cy="300" r="8" fill="gray"/>
+  <text x="165" y="320" font-family="Arial" font-size="12">Q R (stone)</text>
+  
+  <!-- Rope -->
+  <line x1="100" y1="80" x2="180" y2="300" stroke="blue" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Height label -->
+  <line x1="85" y1="80" x2="85" y2="300" stroke="red" stroke-width="1"/>
+  <text x="60" y="195" font-family="Arial" font-size="14" fill="red">h</text>
+  
+  <!-- After (right side) -->
+  <text x="420" y="20" font-family="Arial" font-size="16" font-weight="bold">After falling:</text>
+  
+  <!-- Ground -->
+  <line x1="350" y1="300" x2="650" y2="300" stroke="black" stroke-width="2"/>
+  
+  <!-- Vertical part of tree -->
+  <line x1="400" y1="300" x2="400" y2="180" stroke="brown" stroke-width="4"/>
+  
+  <!-- Break point S -->
+  <circle cx="400" cy="180" r="5" fill="red"/>
+  <text x="375" y="175" font-family="Arial" font-size="12">S</text>
+  
+  <!-- Fallen part -->
+  <line x1="400" y1="180" x2="520" y2="50" stroke="brown" stroke-width="4"/>
+  <text x="525" y="45" font-family="Arial" font-size="12">T (top)</text>
+  
+  <!-- Top to ground -->
+  <line x1="520" y1="50" x2="520" y2="300" stroke="brown" stroke-width="2" stroke-dasharray="3,3"/>
+  
+  <!-- 30 degree angle at S -->
+  <path d="M 420 180 Q 415 190 410 200" fill="none" stroke="purple" stroke-width="1.5"/>
+  <text x="425" y="200" font-family="Arial" font-size="12" fill="purple">30°</text>
+  
+  <!-- 45 degree angle at R -->
+  <path d="M 540 300 Q 535 290 530 285" fill="none" stroke="green" stroke-width="1.5"/>
+  <text x="545" y="295" font-family="Arial" font-size="12" fill="green">45°</text>
+  
+  <!-- Stone and rope -->
+  <circle cx="600" cy="300" r="8" fill="gray"/>
+  <line x1="520" y1="50" x2="600" y2="300" stroke="blue" stroke-width="2"/>
+  <text x="585" y="320" font-family="Arial" font-size="12">R</text>
+  
+  <!-- Distance markers -->
+  <line x1="400" y1="315" x2="520" y2="315" stroke="black" stroke-width="1"/>
+  <text x="445" y="330" font-family="Arial" font-size="12">12.3 m</text>
+  
+  <line x1="520" y1="315" x2="600" y2="315" stroke="black" stroke-width="1"/>
+  <text x="550" y="330" font-family="Arial" font-size="12">y</text>
+  
+  <!-- Points -->
+  <text x="385" y="320" font-family="Arial" font-size="12">Q</text>
+  <text x="505" y="320" font-family="Arial" font-size="12">O</text>
+  
+  <!-- x height marker -->
+  <line x1="415" y1="180" x2="415" y2="300" stroke="red" stroke-width="1"/>
+  <text x="425" y="245" font-family="Arial" font-size="14" fill="red">x</text>
+  
+  <!-- h-x height marker -->
+  <line x1="385" y1="80" x2="385" y2="180" stroke="red" stroke-width="1"/>
+  <text x="365" y="135" font-family="Arial" font-size="14" fill="red">h-x</text>
+</svg>
