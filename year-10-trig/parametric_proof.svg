@@ -1,0 +1,47 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Axes -->
+  <line x1="50" y1="350" x2="350" y2="350" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="350" x2="50" y2="50" stroke="black" stroke-width="2"/>
+
+  <!-- Arrow heads -->
+  <polygon points="350,350 345,345 345,355" fill="black"/>
+  <polygon points="50,50 45,55 55,55" fill="black"/>
+
+  <!-- Axis labels -->
+  <text x="360" y="355" font-family="Arial" font-size="16" font-weight="bold">x-axis</text>
+  <text x="10" y="40" font-family="Arial" font-size="16" font-weight="bold">y-axis</text>
+
+  <!-- Origin label -->
+  <text x="30" y="370" font-family="Arial" font-size="16" font-weight="bold">O</text>
+
+  <!-- Point P and its coordinates -->
+  <circle cx="250" cy="150" r="5" fill="red"/>
+  <text x="260" y="145" font-family="Arial" font-size="16" font-weight="bold" fill="red">P(x,y)</text>
+
+  <!-- Line from origin to P (hypotenuse/radius) -->
+  <line x1="50" y1="350" x2="250" y2="150" stroke="blue" stroke-width="2.5"/>
+
+  <!-- Vertical line from P to x-axis (showing y coordinate) -->
+  <line x1="250" y1="150" x2="250" y2="350" stroke="green" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="260" y="250" font-family="Arial" font-size="15" fill="green" font-weight="bold">y</text>
+
+  <!-- Horizontal line from origin to vertical (showing x coordinate) -->
+  <line x1="50" y1="350" x2="250" y2="350" stroke="purple" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="145" y="370" font-family="Arial" font-size="15" fill="purple" font-weight="bold">x</text>
+
+  <!-- Angle arc for theta -->
+  <path d="M 100 350 Q 110 340 115 325" fill="none" stroke="orange" stroke-width="2"/>
+  <text x="105" y="320" font-family="Arial" font-size="16" fill="orange" font-weight="bold">θ</text>
+
+  <!-- Right angle marker at P -->
+  <rect x="240" y="340" width="10" height="10" fill="none" stroke="black" stroke-width="1"/>
+
+  <!-- Label for the radius/hypotenuse -->
+  <text x="135" y="235" font-family="Arial" font-size="14" fill="blue" font-style="italic">r</text>
+
+  <!-- Explanatory text box -->
+  <rect x="60" y="70" width="280" height="65" fill="#f0f0f0" stroke="black" stroke-width="1" rx="5"/>
+  <text x="70" y="90" font-family="Arial" font-size="13">Where x and y are combinations of</text>
+  <text x="70" y="108" font-family="Arial" font-size="13">p·trig and q·trig, the sum x² + y²</text>
+  <text x="70" y="126" font-family="Arial" font-size="13">equals p² + q² regardless of θ</text>
+</svg>

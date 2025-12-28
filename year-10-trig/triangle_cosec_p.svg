@@ -1,0 +1,31 @@
+<svg width="350" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Right triangle -->
+  <!-- Vertical side (opposite) -->
+  <line x1="80" y1="240" x2="80" y2="80" stroke="black" stroke-width="3"/>
+
+  <!-- Horizontal side (adjacent) -->
+  <line x1="80" y1="240" x2="280" y2="240" stroke="black" stroke-width="3"/>
+
+  <!-- Hypotenuse -->
+  <line x1="80" y1="80" x2="280" y2="240" stroke="black" stroke-width="3"/>
+
+  <!-- Right angle marker -->
+  <rect x="80" y="230" width="10" height="10" fill="none" stroke="black" stroke-width="1.5"/>
+
+  <!-- Angle P label and arc -->
+  <text x="70" y="70" font-family="Arial" font-size="20" font-weight="bold">P</text>
+
+  <!-- Side labels -->
+  <!-- Opposite = 7 -->
+  <text x="50" y="165" font-family="Arial" font-size="18" font-weight="bold" fill="blue">7</text>
+
+  <!-- Hypotenuse = 25 -->
+  <text x="195" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="red">25</text>
+
+  <!-- Adjacent = ? (initially) -->
+  <text x="170" y="265" font-family="Arial" font-size="18" font-weight="bold" fill="green">?</text>
+
+  <!-- Labels below diagram -->
+  <text x="40" y="295" font-family="Arial" font-size="14" fill="blue">Opposite = 7</text>
+  <text x="180" y="295" font-family="Arial" font-size="14" fill="red">Hypotenuse = 25</text>
+</svg>

@@ -20,7 +20,7 @@
 | Identity Type | Formula |
 |--------------|---------|
 | **Pythagorean** | $\sin^2\theta + \cos^2\theta = 1$ |
-| **Reciprocal - Sine** | $\cosec \theta = \frac{1}{\sin \theta}$ |
+| **Reciprocal - Sine** | $\operatorname{cosec} \theta = \frac{1}{\sin \theta}$ |
 | **Reciprocal - Cosine** | $\sec \theta = \frac{1}{\cos \theta}$ |
 | **Reciprocal - Tangent** | $\cot \theta = \frac{1}{\tan \theta}$ |
 | **Quotient** | $\tan \theta = \frac{\sin \theta}{\cos \theta}$ |
@@ -28,6 +28,8 @@
 | **Right Triangle - Sine** | $\sin \theta = \frac{\text{Opp}}{\text{Hyp}}$ |
 | **Right Triangle - Cosine** | $\cos \theta = \frac{\text{Adj}}{\text{Hyp}}$ |
 | **Right Triangle - Tangent** | $\tan \theta = \frac{\text{Opp}}{\text{Adj}}$ |
+
+![Right Triangle](right_triangle.svg)
 
 ### Special Angle Values
 
@@ -42,6 +44,7 @@
 ![30-60-90 Triangle](30_60_90_triangle.svg)
 
 ![45-45-90 Triangle](45_45_90_triangle.svg)
+
 
 ## Greek Letters in Trigonometry {#greek-letters}
 
@@ -68,16 +71,17 @@ Examples:
 
 ### How to Write Them
 
-```
 Lowercase Greek Letters (angles):
 
-θ = theta   (looks like a circle with a horizontal line)
-α = alpha   (looks like a curved "a")
-β = beta    (looks like a curly "B")
-γ = gamma   (looks like a lowercase "y")
-φ = phi     (looks like a circle with a vertical line)
-ω = omega   (looks like a curly "w")
-```
+| Greek Letter | Name  | Looks Like |
+|--------------|-------|------------|
+| θ            | theta | circle with a horizontal line|
+| α            | alpha | curved "a"|
+| β            | beta  | curly "B"|
+| γ            | gamma | lowercase "y"|
+| φ            | phi   | circle with a vertical line|
+| ω            | omega | curly "w"|
+
 
 ### Practice Reading
 
@@ -93,14 +97,13 @@ When you see these expressions, read them as:
 
 ### In Context
 
-```
 Example problem notation:
 
-"If sin θ = 3/5, find cos θ"
-
-This is asking: "If sine of angle theta equals 
-three-fifths, find the cosine of angle theta"
 ```
+"If sin θ = 3/5, find cos θ"
+```
+
+This is asking: "If sine of angle theta equals three-fifths, find the cosine of angle theta"
 
 ### Other Greek Letters You Might See
 
@@ -112,8 +115,6 @@ three-fifths, find the cosine of angle theta"
 
 **Note:** In Year 10, you'll primarily use **$\theta$ (theta)** for angles. The other letters become more important in Years 11-12 and university mathematics.
 
----
-
 ## 1. Reciprocal Trigonometric Ratios {#reciprocal-ratios}
 
 ### What are reciprocal ratios?
@@ -122,7 +123,7 @@ The three main reciprocal trigonometric ratios are:
 
 **Cosecant (cosec)**: The reciprocal of sine
 
-$$\cosec \theta = \frac{1}{\sin \theta}$$
+$$\operatorname{cosec} \theta = \frac{1}{\sin \theta}$$
 
 **Secant (sec)**: The reciprocal of cosine
 
@@ -132,30 +133,26 @@ $$\sec \theta = \frac{1}{\cos \theta}$$
 
 $$\cot \theta = \frac{1}{\tan \theta} = \frac{\cos \theta}{\sin \theta}$$
 
-![Right Triangle](right_triangle.svg)
-
 ### Example Application
 
-**Given:** $3\cosec \theta = 9$
+**Given:** $3\operatorname{cosec} \theta = 9$
 
 **Find:** $\sin \theta$
 
 **Solution:**
 
-$$\cosec \theta = \frac{9}{3} = 3$$
+$$\operatorname{cosec} \theta = \frac{9}{3} = 3$$
 
-Since $\cosec \theta = \frac{1}{\sin \theta}$:
+Since $\operatorname{cosec} \theta = \frac{1}{\sin \theta}$:
 
-$$\sin \theta = \frac{1}{\cosec \theta} = \frac{1}{3}$$
+$$\sin \theta = \frac{1}{\operatorname{cosec} \theta} = \frac{1}{3}$$
 
 ### Key Tips
 - Always remember: reciprocal means "flip the fraction"
 - If you're given a cosec/sec/cot value, convert to sin/cos/tan first
 - These are particularly useful when simplifying complex expressions
 
----
-
-## 2. Fundamental Trigonometric Identities {#fundamental-identities}
+## Fundamental Trigonometric Identities {#fundamental-identities}
 
 ### The Pythagorean Identity
 
@@ -205,15 +202,13 @@ $$\cot \theta = \frac{\cos \theta}{\sin \theta}$$
 
 **Reciprocal Identities:**
 
-$$\sin \theta \times \cosec \theta = 1$$
+$$\sin \theta \times \operatorname{cosec} \theta = 1$$
 
 $$\cos \theta \times \sec \theta = 1$$
 
 $$\tan \theta \times \cot \theta = 1$$
 
----
-
-## 3. Algebraic Manipulation with Trig Functions {#algebraic-manipulation}
+## Algebraic Manipulation with Trig Functions {#algebraic-manipulation}
 
 ### Technique: Squaring Both Sides
 
@@ -255,9 +250,7 @@ $$= \frac{1}{\frac{1}{2}} = 2$$
 
 3. **Factoring:** Look for common factors in numerators and denominators
 
----
-
-## 4. Pythagorean Identity Applications {#pythagorean-identity}
+##  Pythagorean Identity Applications {#pythagorean-identity}
 
 ### Standard Form
 
@@ -309,26 +302,9 @@ $$= p^2(1) + q^2(1)$$
 
 $$= p^2 + q^2$$
 
-```
-Visual Proof:
-    
-    y-axis
-      |
-      |    P(x,y)
-      |   /|
-      |  / |
-      | /  | y
-      |/ θ |
-   ---+----+---- x-axis
-      O    
+![Parametric Forms Visual Proof](parametric_proof.svg)
 
-Where x and y are combinations of p·trig and q·trig,
-the sum x² + y² equals p² + q² regardless of θ
-```
-
----
-
-## 5. Double Angle Formulas {#double-angle-formulas}
+## Double Angle Formulas {#double-angle-formulas}
 
 ### The Key Formula
 
@@ -367,26 +343,13 @@ $$= -\frac{13}{2}$$
 ### Key Strategy
 When you see $\cos 2\theta$ or $\sin 2\theta$, think about which double angle formula will help simplify the expression.
 
----
-
-## 6. Right Triangle Applications {#right-triangle-applications}
+##  Right Triangle Applications {#right-triangle-applications}
 
 ### The Three Main Ratios
 
 For a right triangle with angle θ:
 
-```
-              |\
-              | \
-  hypotenuse  |  \
-              |   \
-              |    \
-   opposite   |     \
-              |  θ   \
-              |_______\
-              adjacent
-
-```
+![Right Triangle](right_triangle.svg)
 
 $$\sin \theta = \frac{\text{Opposite}}{\text{Hypotenuse}}$$
 
@@ -395,6 +358,7 @@ $$\cos \theta = \frac{\text{Adjacent}}{\text{Hypotenuse}}$$
 $$\tan \theta = \frac{\text{Opposite}}{\text{Adjacent}}$$
 
 **Memory aid: SOH-CAH-TOA**
+
 - **S**ine = **O**pposite/**H**ypotenuse
 - **C**osine = **A**djacent/**H**ypotenuse
 - **T**angent = **O**pposite/**A**djacent
@@ -445,32 +409,19 @@ $$c^2 = a^2 + b^2$$
 
 where $c$ is the hypotenuse and $a$, $b$ are the other sides.
 
-![Pythagoras Theorem](pythagoras.svg)
-
 ### Working Backwards from Ratios
 
-**Given:** $\cosec P = \frac{25}{7}$, find $\sin P \times \cos R + \cos P \times \sin R$
+**Given:** $\operatorname{cosec} P = \frac{25}{7}$, find $\sin P \times \cos R + \cos P \times \sin R$
 
 **Step 1:** Convert to sin
 
-$$\cosec P = \frac{25}{7}$$
+$$\operatorname{cosec} P = \frac{25}{7}$$
 
 $$\sin P = \frac{7}{25}$$
 
 **Step 2:** Draw the triangle and find the missing side
 
-```
-        P
-        |\
-        | \
-     7  |  \ 25
-        |   \
-        |____\
-         ? 
-
-    Opposite = 7
-    Hypotenuse = 25
-```
+![Triangle with cosec P](triangle_cosec_p.svg)
 
 $$\text{Adjacent}^2 = 25^2 - 7^2 = 625 - 49 = 576$$
 
@@ -482,9 +433,7 @@ $$\sin P = \frac{7}{25}$$
 
 $$\cos P = \frac{24}{25}$$
 
----
-
-## 7. Angle Comparison Rules {#angle-comparison}
+##  Angle Comparison Rules {#angle-comparison}
 
 ### Key Relationships for 0° < θ < 45°
 
@@ -524,25 +473,23 @@ As $x$ increases from 0° to 90°, $\sin x$ increases from 0 to 1.
 
 This means $\sin x$ is **monotonically increasing** in the first quadrant.
 
----
-
 ## Advanced Identity Manipulation
 
 ### Complex Identity Simplification
 
-**Example:** Simplify $(\cos A - \cosec A)^2 + (\sin A - \sec A)^2$
+**Example:** Simplify $(\cos A - \operatorname{cosec} A)^2 + (\sin A - \sec A)^2$
 
 **Step 1:** Expand both squares using $(a - b)^2 = a^2 - 2ab + b^2$
 
-$$= \cos^2A - 2\cos A \cdot \cosec A + \cosec^2A$$
+$$= \cos^2A - 2\cos A \cdot \operatorname{cosec} A + \operatorname{cosec}^2A$$
 
 $$+ \sin^2A - 2\sin A \cdot \sec A + \sec^2A$$
 
 **Step 2:** Group the Pythagorean pairs
 
-$$= (\cos^2A + \sin^2A) + (\cosec^2A + \sec^2A)$$
+$$= (\cos^2A + \sin^2A) + (\operatorname{cosec}^2A + \sec^2A)$$
 
-$$- 2(\cos A \cdot \cosec A + \sin A \cdot \sec A)$$
+$$- 2(\cos A \cdot \operatorname{cosec} A + \sin A \cdot \sec A)$$
 
 **Step 3:** Simplify using identities
 
@@ -552,9 +499,7 @@ $$= 1 + \frac{1}{\sin^2A \cdot \cos^2A} - \frac{2}{\sin A \cdot \cos A}$$
 
 $$= \left(\frac{1}{\sin A \cdot \cos A} - 1\right)^2$$
 
-$$= (\cosec A \cdot \sec A - 1)^2$$
-
----
+$$= (\operatorname{cosec} A \cdot \sec A - 1)^2$$
 
 ## Practice Checklist
 
@@ -569,11 +514,6 @@ Before your exam, make sure you can:
 - [ ] Compare trig values for angles less than 45°
 - [ ] Expand and factor trigonometric expressions
 
----
 
 
----
 
-**Good luck with your studies!**
-
-Remember: Trigonometry is about patterns and relationships. Once you see the patterns, the problems become much easier!
