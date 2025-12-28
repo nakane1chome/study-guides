@@ -473,6 +473,22 @@ As $x$ increases from 0° to 90°, $\sin x$ increases from 0 to 1.
 
 This means $\sin x$ is **monotonically increasing** in the first quadrant.
 
+### Full Wave Pattern (0° to 360°)
+
+For a complete understanding of sine and cosine behavior, here's the full wave pattern from 0° to 360°:
+
+![Sine and Cosine Functions 0° to 360°](trig_360.svg)
+
+**Key observations:**
+
+- **Sine** starts at 0, reaches maximum (1) at 90°, returns to 0 at 180°, reaches minimum (-1) at 270°, and returns to 0 at 360°
+- **Cosine** starts at 1, reaches 0 at 90°, reaches minimum (-1) at 180°, returns to 0 at 270°, and returns to 1 at 360°
+- Cosine is the same as sine **shifted 90° to the left**
+- Both functions oscillate between -1 and 1
+- Both functions repeat every 360° (this is called the **period**)
+
+---
+
 ## Advanced Identity Manipulation
 
 ### Complex Identity Simplification
